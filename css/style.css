@@ -1,6 +1,7 @@
 :root {
-    --main-color: #000;
+    --main-color: #252b42;
     --text-color: #737373;
     --accent-color: #fff;
     --add-color: #FA4A0C;
+    --add-accent-color: #000;
 }
