@@ -1,7 +1,150 @@
 :root {
-    --main-color: #252b42;
-    --text-color: #737373;
-    --accent-color: #fff;
-    --add-color: #FA4A0C;
-    --add-accent-color: #000;
+  --main-color: #252b42;
+  --text-color: #737373;
+  --accent-color: #fff;
+  --add-color: #fa4a0c;
+  --add-accent-color: #000;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  font-family: inherit;
+  font-weight: 700;
+}
+
+.navigation-link {
+  color: var(--main-color);
+  font-weight: 600;
+  line-height: 1.75;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url(/images/food-bg-img.jpg);
+}
+
+.hero-subtitle {
+  color: #f6f6f6;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+}
+
+.hero-title {
+  color: var(--accent-color);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 58px;
+  line-height: 1.37931;
+  letter-spacing: 0.2px;
+}
+
+.hero-text {
+  color: #f6f6f6;
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.583;
+  letter-spacing: 0.2px;
+}
+
+.hero-delivery-btn {
+  border-radius: 30px;
+  background-color: var(--add-color);
+  color: var(--accent-color);
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+}
+
+.hero-menu-btn {
+  border-radius: 30px;
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+  background-color: transparent;
+}
+
+.how-work-title {
+  color: var(--add-accent-color);
+  font-family: Poppins;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 8.1818;
+  letter-spacing: 0.1px;
+}
+
+.how-work-item-title {
+  color: var(--main-color);
+
+  font-size: 40px;
+  line-height: 1.425;
+  letter-spacing: 0.2px;
+}
+
+.how-work-info {
+  color: var(--add-color);
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+}
+
+.how-work-text {
+  color: var(--text-color);
+  font-size: 24px;
+  line-height: 1.583;
+  letter-spacing: 0.2px;
+}
+
+.order {
+  background-image: url(/images/kitchen-bg-img.jpg);
+}
+
+.order-title {
+  color: var(--accent-color);
+  text-align: center;
+  font-size: 40px;
+  line-height: 1.425;
+  letter-spacing: 0.2px;
+}
+
+.order-text {
+  color: var(--accent-color);
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.583;
+  letter-spacing: 0.2px;
+}
+
+.order-btn-playstore {
+  color: var(--accent-color);
+  border-radius: 10px;
+  background-color: var(--add-color);
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.2px;
+}
+
+.order-btn-appstore {
+  color: var(--accent-color);
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  background-color: transparent;
+}
+
+.copy {
+  color: #5c5c5c;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
 }
