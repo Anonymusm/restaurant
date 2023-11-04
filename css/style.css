@@ -23,6 +23,10 @@ button {
   text-decoration: none;
 }
 
+.navigation-link:hover {
+  color: var(--add-color);
+}
+
 .hero {
   background-color: rgb(57, 162, 57);
 }
