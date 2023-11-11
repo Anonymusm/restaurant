@@ -10,6 +10,12 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.container {
+  width: 1240px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 h1,
 h2,
 h3,
@@ -54,6 +60,11 @@ button {
   font-weight: 700;
 }
 
+.header {
+  padding-top: 49.52px;
+  padding-bottom: 41.27px;
+}
+
 .navigation-link {
   color: var(--main-color);
   font-weight: 600;
@@ -68,6 +79,8 @@ button {
 
 .hero {
   background-color: rgb(57, 162, 57);
+  padding-top: 80px;
+  padding-bottom: 162px;
 }
 
 .hero-subtitle {
@@ -115,6 +128,11 @@ button {
   background-color: transparent;
 }
 
+.how-work {
+  padding-top: 56px;
+  padding-bottom: 148px;
+}
+
 .how-work-title {
   color: var(--add-accent-color);
   font-family: Poppins;
@@ -149,6 +167,8 @@ button {
 
 .order {
   background-color: rgb(73, 202, 73);
+  padding-top: 141px;
+  padding-bottom: 130px;
 }
 
 .order-title {
@@ -182,6 +202,11 @@ button {
   line-height: 28px;
   letter-spacing: 0.2px;
   background-color: transparent;
+}
+
+.footer {
+  padding-top: 78px;
+  padding-bottom: 58.77px;
 }
 
 .copy {
