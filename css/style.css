@@ -65,6 +65,26 @@ button {
   padding-bottom: 41.27px;
 }
 
+.header-position {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.navigation-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation-item + .navigation-item {
+  margin-left: 114px;
+}
+
 .navigation-link {
   color: var(--main-color);
   font-weight: 600;
@@ -90,6 +110,7 @@ button {
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: 0.1px;
+  margin-bottom: 10px;
 }
 
 .hero-title {
@@ -99,6 +120,7 @@ button {
   font-size: 58px;
   line-height: 1.37931;
   letter-spacing: 0.2px;
+  margin-bottom: 14.9px;
 }
 
 .hero-text {
@@ -107,6 +129,13 @@ button {
   font-size: 24px;
   line-height: 1.583;
   letter-spacing: 0.2px;
+  margin-bottom: 54px;
+}
+
+.hero-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-delivery-btn {
@@ -116,6 +145,10 @@ button {
   font-size: 24px;
   line-height: 1.5;
   letter-spacing: 0.1px;
+  padding: 16px 0px;
+  width: 236px;
+  border: none;
+  margin-right: 67px;
 }
 
 .hero-menu-btn {
@@ -126,6 +159,9 @@ button {
   line-height: 1.5;
   letter-spacing: 0.1px;
   background-color: transparent;
+  width: 236px;
+  padding: 16px 0px;
+  border: 1px solid var(--accent-color);
 }
 
 .how-work {
@@ -140,14 +176,14 @@ button {
   font-weight: 600;
   line-height: 0.81;
   letter-spacing: 0.1px;
+  margin-bottom: 70px;
+  text-align: center;
 }
 
-.how-work-item-title {
-  color: var(--main-color);
-
-  font-size: 40px;
-  line-height: 1.425;
-  letter-spacing: 0.2px;
+.how-work-app-img {
+  float: left;
+  margin-right: 287px;
+  margin-bottom: 213px;
 }
 
 .how-work-item-info {
@@ -156,9 +192,33 @@ button {
   line-height: 1.5;
   letter-spacing: 0.1px;
   font-weight: 700;
+  margin-top: 113px;
+  margin-bottom: 17px;
+}
+
+.how-work-item-title {
+  color: var(--main-color);
+  margin-bottom: 27px;
+  font-size: 40px;
+  line-height: 1.425;
+  letter-spacing: 0.2px;
 }
 
 .how-work-text {
+  color: var(--text-color);
+  font-size: 24px;
+  line-height: 1.583;
+  letter-spacing: 0.2px;
+  margin-bottom: 232px;
+}
+
+.how-work-phone-img {
+  float: right;
+  margin-left: 338px;
+}
+
+.how-work-shop-text {
+  margin-bottom: 157px;
   color: var(--text-color);
   font-size: 24px;
   line-height: 1.583;
@@ -177,6 +237,7 @@ button {
   font-size: 40px;
   line-height: 1.425;
   letter-spacing: 0.2px;
+  margin-bottom: 10px;
 }
 
 .order-text {
@@ -185,6 +246,13 @@ button {
   font-size: 24px;
   line-height: 1.583;
   letter-spacing: 0.2px;
+  margin-bottom: 49px;
+}
+
+.order-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .order-btn-playstore {
@@ -194,6 +262,9 @@ button {
   font-size: 16px;
   line-height: 1.75;
   letter-spacing: 0.2px;
+  padding: 18px 31px;
+  border: none;
+  margin-right: 16px;
 }
 
 .order-btn-appstore {
@@ -202,6 +273,9 @@ button {
   line-height: 28px;
   letter-spacing: 0.2px;
   background-color: transparent;
+  padding: 16px 45px;
+  border: 1px solid var(--accent-color);
+  border-radius: 10px;
 }
 
 .footer {
@@ -209,11 +283,18 @@ button {
   padding-bottom: 58.77px;
 }
 
+.footer-position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .copy {
   color: #5c5c5c;
-  text-align: right;
   font-family: Roboto;
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.1px;
+  text-align: right;
+  
 }
