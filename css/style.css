@@ -180,8 +180,12 @@ button {
   text-align: center;
 }
 
+.how-work-item {
+  display: flex;
+  justify-content: space-between;
+}
+
 .how-work-app-img {
-  float: left;
   margin-right: 287px;
   margin-bottom: 213px;
 }
@@ -213,7 +217,6 @@ button {
 }
 
 .how-work-phone-img {
-  float: right;
   margin-left: 338px;
 }
 
