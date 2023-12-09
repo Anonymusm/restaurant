@@ -61,8 +61,8 @@ button {
 }
 
 .header {
-  padding-top: 49.52px;
-  padding-bottom: 41.27px;
+  padding-top: 50px;
+  padding-bottom: 40px;
 }
 
 .header-position {
@@ -98,7 +98,7 @@ button {
 }
 
 .hero {
-  background-color: rgb(57, 162, 57);
+  background: url(../images/food-bg-img.jpg) no-repeat center / cover;
   padding-top: 80px;
   padding-bottom: 162px;
 }
@@ -116,11 +116,13 @@ button {
 .hero-title {
   color: var(--accent-color);
   text-align: center;
+  margin: 0 auto;
   font-family: Poppins;
   font-size: 58px;
   line-height: 1.37931;
   letter-spacing: 0.2px;
   margin-bottom: 14.9px;
+  width: 800px
 }
 
 .hero-text {
@@ -229,7 +231,7 @@ button {
 }
 
 .order {
-  background-color: rgb(73, 202, 73);
+    background: url(../images/kitchen-bg-img.jpg) no-repeat center / cover;
   padding-top: 141px;
   padding-bottom: 130px;
 }
